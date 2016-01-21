@@ -7,6 +7,7 @@
 pcre *re;
 
 * Compile the regular expression pattern, and handle errors that are detected.
+
 re = pcre_compile(
   pattern, -------------- the pattern to detect of type char* 
   0,--------------------- default options
