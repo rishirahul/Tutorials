@@ -20,8 +20,9 @@ pix[x,y] = value # Set the RGBA Value of the image (tuple)
 * RGB to Gray [link](http://scikit-image.org/docs/dev/api/skimage.color.html#skimage.color.rgb2grey)
     * Weights of 3 channels are different
 * Conversion from grayscale to binary
+
 #### Histograms
-Distribution of gray level of na image
+Distribution of gray level of an image
 
 #### Filtering
 * Image  I(x,y) Noise  N(x,y)
@@ -37,8 +38,12 @@ Distribution of gray level of na image
         * 1D: [-1 0 1]
         * 2D: 
             * ![Image1](images/Image1.jpg)
+
 #### correlation
+
 #### convolution
+
 #### Mean
+
 #### Wighted mean
 
