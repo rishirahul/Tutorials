@@ -1,0 +1,4 @@
+Types of matrix
+* sparse - most elemets are 0
+* dense - most elements non 0
+* symmetric
