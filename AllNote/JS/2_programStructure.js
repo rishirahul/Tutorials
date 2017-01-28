@@ -152,6 +152,7 @@ var object1 = {val: 10};
 var object2 = {val: 10};
 var object3 = object1;
 
+// === is a deep comparison operator1
 console.log (object1 == object2);
 console.log (object1 === object2);
 console.log (object1 == object3);

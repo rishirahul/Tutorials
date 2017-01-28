@@ -9,3 +9,4 @@ Links and notes to various topics
 * [Puzzles](AllNote/puzzles.md)
 * [Regular expression](AllNotes/RegularExpression.md)
 * [PCRE](AllNotes/PCRE.md)
+* [Javascript](AllNotes/Javascript.md)
