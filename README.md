@@ -11,3 +11,4 @@ Links and notes to various topics
 * [PCRE](AllNotes/PCRE.md)
 * [Javascript](AllNotes/Javascript.md)
 * [nodejs](AllNotes/nodejs.md)
+* [Angularjs](AllNotes/Angularjs/README	.md)

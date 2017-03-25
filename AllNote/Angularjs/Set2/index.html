@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd"><html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<script src="../angular.min.js"> </script>
+	<script language="javascript">
+		var myApp = angular.module("myModule,[]);
+	    	myApp.controller("myController", function ($scope) {
+		var car = [{ make: "tata",   model:"indica", mfd:"" },
+		           { make: "vw",     model:"polo",   mfd:"" },
+		           { make: "audi",   model:"a3",     mfd:"" },
+		           { make: "nissan", model:"micra",  mfd:"" }];
+		});
+                $scope.car = car;
+	</script>
+	<title>Example 2</title>
+</head>
+<body>
+	<div>
+		<table>
+			<thead>
+				
+			</thead>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html ng-app="myModule">
+    <head>
+        <script src="../angular.min.js"></script>
+        <script language="javascript">
+            var myApp = angular.module("myModule",[]);
+            myApp.controller("myController", function ($scope) {
+                var car = {
+                    model: "tata",
+                    make:"1998",
+		    photo:"car.png"
+                };
+		var number = {
+		    A: 3,
+		    B: 2
+		};
+                $scope.message = "Welcome";
+                $scope.car = car;
+                $scope.number = number;
+            });
+        </script>
+    </head>
+    <body>
+        <div ng-controller="myController">
+	    <div>
+		    {{ message}}
+	    </div>
+	    <div>
+		    Sum of <input type="text"  ng_model="number.A" /> and <input type="text"  ng_model="number.B" /> is {{number.A + number.B}}
+	    </div>
+            <div>
+                Car Model: {{ car.model }}
+            </div>
+            <div>
+                Car Make: {{ car.make }}
+            </div>
+	    <div>
+		<img ng-src="{{ car.photo}}" alt="{{ car.model}}" style="height:100px;width200px"/>
+	    </div>
+        </div>
+    </body>
+</html>
