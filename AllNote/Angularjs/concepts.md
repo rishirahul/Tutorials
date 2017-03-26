@@ -1,5 +1,5 @@
 # AngularJS Summary
-###Terms
+###  Terms
 ----------------------------------------
 Template	|	HTML with additional markup
 Directives	|	Extends the HTML with custom attributes and elements
@@ -17,10 +17,10 @@ Dependency 	|	InjectionCreates and wires objects and functions
 Injector	|	Dependency injection container
 -----------------------------------------
 
-##App
+## App
 ng-app - part of design compiled by angular
 
-##Initializing values in directive
+## Initializing values in directive
 ng-init
 ``` html
 ng-init="greet='Hello World!'; amount= 10000;rateOfInterest = 10.5; duration=10;  myArr = [100, 200]; person = { firstName:'Steve', lastName :'Jobs'}"
