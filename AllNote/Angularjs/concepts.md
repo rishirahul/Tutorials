@@ -1,7 +1,8 @@
 # AngularJS Summary
 ###Terms
-----------------------------------------
-Template	|	HTML with additional markup
+|Terms | description|
+ |-----------|:--------:|
+| Template	|	HTML with additional markup|
 Directives	|	Extends the HTML with custom attributes and elements
 Model		|	The data shown to the user in the view and with which the user interacts
 Scope		|	A context where the model is stored so that controllers, directives and expressions can access it
@@ -15,7 +16,6 @@ Modulea 	|	container for different parts of an app including contr	ollers, servi
 Service		|	Reusable business logic, independent of views
 Dependency 	|	InjectionCreates and wires objects and functions
 Injector	|	Dependency injection container
------------------------------------------
 
 ##App
 ng-app - part of design compiled by angular
@@ -26,7 +26,8 @@ ng-init
 ng-init="greet='Hello World!'; amount= 10000;rateOfInterest = 10.5; duration=10;  myArr = [100, 200]; person = { firstName:'Steve', lastName :'Jobs'}"
 ```
 ## AngularJS Directives
-----------------------------------------
+|Directives | description|
+-------------------|:---------------------:|
 ng-app		|Auto bootstrap AngularJS application.
 ng-init		|Initializes AngularJS variables
 ng-model	|Binds HTML control's value to a	property on the $scope object.
@@ -38,7 +39,7 @@ ng-readonly	|Makes HTML element read-only based on the value of the specified ex
 ng-disabled	|Sets the disable attribute on the HTML element if specified expression evaluates to true.
 ng-if		|Removes or recreates HTML element based on an expression.
 ng-click	|Specifies custom behavior when an element is clicked.
-----------------------------------------
+
 
 ## AngularJS Modules
 A module in AngularJS is a container of the different parts of an application such as controller, service, filters, directives, factories etc. It supports separation of concern using modules.
