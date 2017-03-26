@@ -1,8 +1,7 @@
 # AngularJS Summary
-###Terms
 |Terms | description|
  |-----------|:--------:|
-| Template	|	HTML with additional markup|
+Template	|	HTML with additional markup
 Directives	|	Extends the HTML with custom attributes and elements
 Model		|	The data shown to the user in the view and with which the user interacts
 Scope		|	A context where the model is stored so that controllers, directives and expressions can access it
@@ -17,10 +16,10 @@ Service		|	Reusable business logic, independent of views
 Dependency 	|	InjectionCreates and wires objects and functions
 Injector	|	Dependency injection container
 
-##App
+## App
 ng-app - part of design compiled by angular
 
-##Initializing values in directive
+## Initializing values in directive
 ng-init
 ``` html
 ng-init="greet='Hello World!'; amount= 10000;rateOfInterest = 10.5; duration=10;  myArr = [100, 200]; person = { firstName:'Steve', lastName :'Jobs'}"

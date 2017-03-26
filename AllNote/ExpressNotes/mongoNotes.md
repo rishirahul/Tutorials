@@ -1,5 +1,5 @@
-#Mongo DB 
-####steps after installation
+# Mongo DB 
+#### steps after installation
 * sudo service mongod start  // to start
 * sudo service mongod stop
 * sudo service mongod restart
@@ -12,12 +12,12 @@
 * db.movie.insert("...")
 * db.dropDatabase() // deletes db
 
-##Hierarchy
+## Hierarchy
 * Database - db
 	* collection 
 		* Document -> key value of different types
 
-###collections
+### collections
 
 While creating collection, two fields can be set:
 
