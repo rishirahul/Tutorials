@@ -1,4 +1,4 @@
-#Understanding express framework
+# Understanding express framework
 install -g express
 express --version
 
@@ -10,7 +10,7 @@ npm install
 
 
 
-##v1 basic express server
+## v1 basic express server
 
 *goto app.js* 
 ``` javascript 
@@ -29,7 +29,7 @@ node app.js
 
 
 
-##v2 passing data from url
+## v2 passing data from url
 
 *goto app.js*
 ``` javascript 
