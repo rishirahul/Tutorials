@@ -456,6 +456,32 @@ interface ValidatorFn {
   }
 
 ```
+#### validator function.ts
+``` javascript
+import { setTimeout } from 'timers';
+import { resolve } from 'url';
+import { AbstractControl, ValidationErrors } from '@angular/forms';
+export class UsernameValidators {
+  static cannotContainSpace(control: AbstractControl) : ValidationErrors | null {
+    if ((control.value as string).indexOf(' ') >= 0) {
+      return { cannotContainSpace: true };
+    }
+    return null;
+  }
+  static shouldBeUnique (control: AbstractControl) : Promise<ValidationErrors | null> {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {                  // to make function Async (just to simulate the behavior)
+        if (control.value === 'rishi') {
+          resolve({ shouldBeUnique: true });
+        }
+        else {
+          resolve(null);
+        }
+      }, 2000);
+    });
+  }
+} 
+```
 
 ## creating array of objects in form
 * use formArray inside form group to create such objects
@@ -724,12 +750,29 @@ export class NotFoundError extends AppError {
 }
 
 ```
-# Routing 
+## Routing 
 * import RouterModule from angular/router
 * add path in module.ts
+* add navbar component to implement navigation bar
+* below navigation bar <router-outlet> is the tag where component will be rendered
+* component can be linked to <router-outlet> using **routerLink** just like href
+ * routerLink="component"
+ * [routerLink]=["component","param1",.."optionalParam",..];
+ * routerLinkActivated="active current" to mark if which link is active in bootstrap
+* private route:ActivatedRoute in constructor
+* to get parameter
+  * router.paramMap can used to get parameter
+  * this is observable
 
+#### navbar.component.ts
+#### navbar.component.html
+#### xx.component.ts
+#### xx.component.html
+``` html
+```
 
-
+``` javascript
+```
 
 ``` html
 
