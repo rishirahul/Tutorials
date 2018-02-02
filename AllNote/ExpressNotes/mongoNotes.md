@@ -14,7 +14,7 @@
 
 ## To create DB in a given directory
 * sudo service mongod stop
-* mongod --dbpath <path>
+* mongod --dbpath \<path\>
 	* keep it running
 * connect to db from another shell
 
