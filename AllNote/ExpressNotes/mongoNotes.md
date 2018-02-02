@@ -12,6 +12,12 @@
 * db.movie.insert("...")
 * db.dropDatabase() // deletes db
 
+## To create DB in a given directory
+* sudo service mongod stop
+* mongod --dbpath <path>
+	* keep it running
+* connect to db from another shell
+
 ## Hierarchy
 * Database - db
 	* collection 
