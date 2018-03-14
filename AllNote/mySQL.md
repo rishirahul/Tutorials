@@ -5,9 +5,9 @@ Links and notes to various topics
 * [get port](https://stackoverflow.com/questions/4093603/how-do-i-find-out-my-mysql-url-host-port-and-username)
 * SHOW DATABASES;
 * USE DATABASE;
-* CREATE DATABASE /<db name/>;
+* CREATE DATABASE <db name/>;
 * SHOW TABLES;
 * CREATE TABLE ... ... ;
 * DESCRIBE /<table name/>;
 * SELECT * FROM COMPANY; // prints rows in table
-* DROP TABLE /<table name/>;
+* DROP TABLE <table name/>;
