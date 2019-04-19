@@ -163,7 +163,7 @@ docker run -p <hostportnumber>:<vmportnumber> <imageTagId>
 
 We can create two container shown below, where one container is running node application which is using redis database to store and fetch values.
 
-![app1](Screenshot_2019-04-19_10-12-04.png)
+<img src="./Screenshot_2019-04-19_10-12-04.png" width="400">
 
 But how can these container talk to each other?? To solve this  comes the docker compose 
 
