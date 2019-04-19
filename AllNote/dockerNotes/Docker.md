@@ -175,7 +175,7 @@ But how can these container talk to each other?? To solve this  comes the docker
 
 This is how docker-compose.yml looks like 
 
-![docker_compose.yml](./docker-compose_yml.png =300x)
+<img src="./docker-compose_yml.png" width="400">
 
 To use docker-compose 
 
@@ -217,11 +217,11 @@ To see docker compose instances running
 
 if container closes accidently restart policies are used. By default restart policy is "no".
 
-![docker_compose.yml](./restart_policy.png =400x)
+<img src="restart_policy.png" width="400">
 
 #### Docker flow for development  
 
-![prod](./prod.png =500x)
+<img src="./prod.png" width="500">
 
 Lets create a react project first 
 
@@ -323,21 +323,21 @@ services:                   # declaring containers
 
 so overall flow we developed above looks like:
 
-![./testflow.png](testflow.png =500x)
+<img src="testflow.png" width="500">
 
 #### Docker flow for production  
 
 Overall flow in development mode looks like: 
 
-![./devenv.png](devenv.png =500x)
+<img src="devenv.png" width="500">
 
 and desired flow in production mode should be:
 
-![./prodenv.png](prodenv.png =500x)
+<img src="prodenv.png" width="500">
 
 To achive above production enviroment steps are:
 
-![./prod_bld_run_phase.png](prod_bld_run_phase.png =500x)
+<img src="./prod_bld_run_phase.png" width="500">
 
 So based on this overall create a file DockerFile which will be used for production environment
 
@@ -358,13 +358,13 @@ To achieve this follow lecture in section 7
 
 #### Developing multicontainer application
 
-![./mca_ov.png](mca_ov.png =500x)
+<img src="./mca_ov.png" width="500">
 
 This is a simple app to compute fibonacci of a given number and store previous results in redisdb and queries in posgres. Overall app looks like
 
-![./mca_app.png](mca_app.png =500x)
+<img src="./mca_app.png" width="500">
 
-![./mca_appflow.png](mca_appflow.png =500x)
+<img src="./mca_appflow.png" width="500">
 
 ```docker 
 ```
