@@ -49,7 +49,9 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 ```
+
 ### adding code in markdown ###
+
     eg.
     `code()`
     Markup :  `code()`
@@ -89,6 +91,7 @@ Content Cell  | Content Cell
 ~~~
 
 ### Adding numbered lists and indentations ###
+
 1. A numbered list
  1. A nested numbered list
  2. Which is numbered
@@ -102,6 +105,7 @@ Content Cell  | Content Cell
 ~~~
 
 ### Adding backquote ###
+
 > Blockquote
 >> Nested blockquote
 
